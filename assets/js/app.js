@@ -3,6 +3,9 @@
 // its own CSS file.
 import "../css/app.scss"
 
+import phoenix from "phoenix";
+window["phoenix"] = phoenix;
+
 // webpack automatically bundles all modules in your
 // entry points. Those entry points can be configured
 // in "webpack.config.js".
